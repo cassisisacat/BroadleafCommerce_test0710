@@ -44,7 +44,7 @@
         <project.uri>${project.baseUri}</project.uri>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <ehcache3.version>3.10.8</ehcache3.version>
-        <spring.version>6.2.18</spring.version>
+        <spring.version>6.2.19</spring.version>
         <spring.security.version>6.5.10</spring.security.version>
         <spring-ldap-core.version>3.3.6</spring-ldap-core.version>
         <spring.boot.version>3.5.14</spring.boot.version>
@@ -189,7 +189,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -206,7 +206,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -227,7 +227,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -350,8 +350,8 @@
                         <id>default-cli</id>
                         <configuration>
                             <rules>
-                                <dependencyConvergence />
-                                <banDuplicatePomDependencyVersions />
+                                <dependencyConvergence/>
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                         <goals>
